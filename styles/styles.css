@@ -1,0 +1,146 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  margin: 0;
+  transition: 0.2s;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-size: 50px;
+  color: #4A4A4A;
+  line-height: 80%;
+  font-weight: 800;
+  text-align: center;
+  margin: 10px 0 0;
+  text-shadow: 1px 1px 3px #F3509F;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 28px;
+  color: #4A4A4A;
+  line-height: 130%;
+  text-align: center;
+}
+
+p.big {
+  font-family: 'Open Sans';
+  font-weight: lighter;;
+  font-size: 20px;
+  color: #4A4A4A;
+  line-height: 160%;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'Droid Serif';
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.5px;
+  line-height: 120%;
+}
+
+.logo {
+  display: block;
+  width: 80px;
+}
+  .logo img {
+    width: 100%;
+  }
+
+header {
+  padding: 10px 20px 20px;
+  transition: 0.2s;
+}
+  .gubbins {
+    padding-bottom: 20px;
+  }
+    .gubbins .blognumber {
+      float: left;
+    }
+    .gubbins .blogdate {
+      float: right;
+    }
+
+
+section {
+  border-top: 1px #E7E4E4 solid;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section header {
+  padding: 10px 0 20px;
+  margin: 0 auto 50px;
+  max-width: 800px;
+}
+
+.avatarholder {}
+  h4 {
+    display: block;
+    font-family: 'Droid Serif';
+    font-size: 17px;
+    color: rgba(0,0,0,0.45);
+    margin: 0;
+    float: left;
+    padding-top: 5px;
+    font-weight: normal;
+    font-style: italic;
+  }
+  .avatar {
+    display: block;
+    border-radius: 14px;
+    margin-right: 10px;
+    height: 28px;
+    width: 28px;
+    background: #F3509F;
+    float: left;
+  }
+
+.headertext {
+  margin: 20px 0 10px;
+}
+header .avatarholder {
+  max-width: 140px; /* THIS IS A TEMPORARY THING! */
+  margin: -50px auto 0;
+}
+
+article.clogcontainer {
+  max-width: 760px;
+  margin: 10px auto 30px;
+  padding: 10px 20px;
+}
+  .clogcontainer h2 {
+    padding: 10px 0 0;
+    margin: 0;
+    text-align: left;
+    font-size: 22px;
+  }
+
+  .clogcontainer p {
+    padding: 14px 0 0;
+    margin: 0;
+  }
+    a {
+      color: #5AA3E8;
+      font-weight: bold;
+      font-style: italic;
+    }
+  .clogcontainer.red {
+    border-left: 2px solid #FF8054;
+  }
+  .clogcontainer.blue {
+    border-left: 2px solid #5AFFF1;
+  }
+
+article.absentees {
+  max-width: 800px;
+  margin: 10px auto 0;
+}
